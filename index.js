@@ -49,6 +49,6 @@ module.exports = {
       for (var i = fontExtensions.length - 1; i >= 0; i--) {
         app.import('bower_components/semantic-ui/dist/themes/default/assets/fonts/icons'+fontExtensions[i], fontOptions);
       };
-    }
+    } 
   }
 };
